@@ -4,7 +4,7 @@ Various algorithms I have found helpful; I will expand this repository as I writ
 I will write each algorthim in several languages, likely: JavaScript, PHP, C, or Java. 
 <br /><br />
 <hr>
-<h3>Weighted Mediod</h3>
+<h3>Weighted-Mediod</h3>
 <br />
 -A method to find the point in a two-dimensional Euclidean space which divides the dataset into equal, weighted subsets. A concept similar to the center of mass.
 <br />
