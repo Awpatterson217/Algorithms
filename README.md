@@ -3,7 +3,7 @@ Various algorithms I have found helpful; I will expand this repository as I writ
 <br /><br />
 I will write each algorthim in several languages, likely: JavaScript, PHP, C, or Java. 
 <br /><br />
-<hr><br />
+<hr>
 <h3><b>Weighted Mediod</b></h3>
 <br />
 -A method to find the object in a two-dimensional Euclidean space which divides the dataset into equal, weighted subsets. Similar to the center of mass, but is sometimes only an approximation. 
@@ -21,9 +21,9 @@ Steps:
 3: Return the key of the last object whose value was added to the partial sum in step 3. 
 <br /><br />
 Complete Example:
-<br />
+<br /><br />
 Given the dataset [{1:5},{2:9},{3:4},{4:5},{5:5},{6:9},{7:4},{8:5},{9:9},{10:4},{11:5},{12:9},{13:4},{14:5},{15:5},{16:9},{17:4},{18:5},{19:9},{20:0},{21:4},{22:5},{23:9},{24:0}], where key = hour of the day, value = ounces of water consumed.
-<br />
+<br /><br />
 1: 5+9+4+5+5+9+4+5+9+4+5+9+4+5+5+9+4+5+9+0+4+5+9+0 = 132. 132/2 = 66. 
 <br />
 2: 5+9+4+5+5+6+4+5+9+4+5 = 65. The algorithm stops at the eleventh hour, because adding the value of the 12th hour(9) to the partial sum would mean the partial sum > 66.
