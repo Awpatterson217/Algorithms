@@ -4,7 +4,7 @@ Various algorithms I have found helpful; I will expand this repository as I writ
 I will write each algorthim in several languages, likely: JavaScript, PHP, C, or Java. 
 <br /><br />
 <hr>
-<h3><b>Weighted Mediod</b></h3>
+<h3>Weighted Mediod</h3>
 <br />
 -A method to find the object in a two-dimensional Euclidean space which divides the dataset into equal, weighted subsets. Similar to the center of mass, but is sometimes only an approximation. 
 <br />
@@ -13,7 +13,7 @@ I will write each algorthim in several languages, likely: JavaScript, PHP, C, or
 -Data must an array of key value pairs.
 <br /><br />
 Steps:
-<br />
+<br /><br />
 1: Find the sum of all values to be weighted by looping through the array, and divide this value in half.
 <br />
 2: Loop through the array of KVPs, while adding the values sequentially until the next value added would make the running total of the summation greater than the value found in step 1. 
