@@ -6,7 +6,7 @@ I will write each algorthim in several languages, likely: JavaScript, PHP, C, or
 <hr>
 <h3>Weighted Mediod</h3>
 <br />
--A method to find the object in a two-dimensional Euclidean space which divides the dataset into equal, weighted subsets. Similar to the center of mass, but is sometimes only an approximation. 
+-A method to find the point in a two-dimensional Euclidean space which divides the dataset into equal, weighted subsets. A concept similar to the center of mass.
 <br />
 -This method can be inaccurate or irrelevant if there are too few key-value pairs, e.g. while this method is useful for something like days in a year, it would not be useful for days in a week. 
 <br />
