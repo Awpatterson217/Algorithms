@@ -26,7 +26,7 @@ Given the dataset [{1:5},{2:9},{3:4},{4:5},{5:5},{6:9},{7:4},{8:5},{9:9},{10:4},
 <br /><br />
 1: 5+9+4+5+5+9+4+5+9+4+5+9+4+5+5+9+4+5+9+0+4+5+9+0 = 132. 132/2 = 66. 
 <br />
-2: 5+9+4+5+5+6+4+5+9+4+5 = 65. The algorithm stops at the eleventh hour, because adding the value of the 12th hour(9) to the partial sum would mean the partial sum > 66.
+2: 5+9+4+5+5+6+4+5+9+4+5 = 65. The algorithm stops at the eleventh hour, because adding the value of the 12th hour(9) to the partial sum would mean the partial sum would equal a number greater than 66.
 <br />
 3: Return 11. 
 <br />
