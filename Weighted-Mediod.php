@@ -4,7 +4,7 @@
 * I used these algorthms to find the 'weighted-average of a 
 * two-dimensional Euclidean plane'.
 *
-* That is, a point belonging to the associative array where the (sum of all items)/2
+* That is, a point belonging to an associative array where (the sum of all items)/2
 * exists on either side of the key-value pair.
 *
 * Since this point represents a key-value pair in the associative array,
