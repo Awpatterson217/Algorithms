@@ -58,5 +58,4 @@ function alternativeMediod($arrayOfValues, $arrayOfKeys){
     return $mediod;
 }
 
-
 ?>
