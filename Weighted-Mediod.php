@@ -48,7 +48,6 @@ function alternativeMediod($arrayOfValues, $arrayOfKeys){
     $testSum = $sumofValues/2;
     $arrayLength = count($arrayOfValues);
     $partialSum = 0;
-
     for($counter = 0; $counter < $arrayLength; $counter++) {
         $partialSum += $arrayOfValues[$counter];
         if($partialSum > $testSum) {
