@@ -1,6 +1,6 @@
 # Algorithms
 Various algorithms I have found helpful; I will expand this repository as I write them.  
-<br /><br />
+<br />
 I will write each algorthim in several languages, likely: JavaScript, PHP, C, or Java. 
 <br /><br />
 <hr>
@@ -23,24 +23,24 @@ Steps:
 <br /><br />
 <b>Complete Example:</b>
 <br /><br /><pre>
-Given the dataset: 
+Given the dataset: <br />
 
 [{1:5},{2:9},{3:4},{4:5},{5:5},{6:9},{7:4},{8:5},{9:9},{10:4},{11:5},{12:9},{13:4},
 {14:5},{15:5},{16:9},{17:4},{18:5},{19:9},{20:0},{21:4},{22:5},{23:9},{24:0}]
                   
 Where: key = hour of the day, value = ounces of water consumed
-</pre><br /><br />
+</pre>
 <pre>
 1: 5+9+4+5+5+9+4+5+9+4+5+9+4+5+5+9+4+5+9+0+4+5+9+0 = 132
    132/2 = 66
-</pre><br />
+</pre>
 <pre>
 2: 5+9+4+5+5+6+4+5+9+4+5 = 65 
 
 The algorithm stops at the eleventh hour, because adding the value of the 12th hour(9) 
 to the partial sum would mean the partial sum would equal a number greater than 66
-</pre><br />
+</pre>
 <pre>
 3: Return 11
-</pre><br />
+</pre>
 
