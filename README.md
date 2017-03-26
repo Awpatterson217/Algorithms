@@ -13,7 +13,7 @@ I will write each algorthim in several languages, likely: JavaScript, PHP, C, or
 <br />
 -Data must an array of key value pairs.
 <br /><br />
-Steps:
+<b>Steps:</b>
 <br /><br />
 1: Find the sum of all values to be weighted by looping through the array, and divide this value in half.
 <br />
