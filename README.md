@@ -1,5 +1,5 @@
 # Algorithms
-Various algorithms I have found helpful; I will expand this repository as I write them.  
+Algorithms I have found helpful; I will expand this repository as I write them.  
 <br />
 I will write each algorthim in several languages, likely: JavaScript, PHP, C, or Java. 
 <br /><br />
@@ -32,6 +32,7 @@ Where: key = hour of the day, value = ounces of water consumed
 </pre>
 <pre>
 1: 5+9+4+5+5+9+4+5+9+4+5+9+4+5+5+9+4+5+9+0+4+5+9+0 = 132
+<br />
    132/2 = 66
 </pre>
 <pre>
