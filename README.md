@@ -21,7 +21,7 @@ I will write each algorthim in several languages, likely: JavaScript, PHP, C, or
 <br />
 3: Return the key of the last object whose value was added to the partial sum in step 2. 
 <br /><br />
-<b>Complete Example:</b>
+<b>Complete Example</b>
 <br /><br /><pre>
 Given the dataset: <br />
 
