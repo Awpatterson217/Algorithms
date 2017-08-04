@@ -38,6 +38,7 @@ Where: key = hour of the day, value = ounces of water consumed
 2: 
 <pre>5+9+4+5+5+6+4+5+9+4+5 = 65 
 
+
 The algorithm stops at the eleventh hour, because adding the value of the 12th hour (9)
 to the partial sum would mean the partial sum would equal a number greater than 66
 </pre>
