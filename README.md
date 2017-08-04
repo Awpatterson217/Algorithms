@@ -41,6 +41,6 @@ The algorithm stops at the eleventh hour, because adding the value of the 12th h
 to the partial sum would mean the partial sum would equal a number greater than 66
 </pre>
 3: 
-<pre>Return 1i1
+<pre>Return 11
 </pre>
 
