@@ -15,7 +15,7 @@ I will write each algorthim in several languages, likely: JavaScript, PHP, C, or
 <br /><br />
 <b>Steps:</b>
 <br /><br />
-1: Find (the sum of all values / 2) to be weighted by looping through the array.
+1: Find (the sum of all values / 2) by looping through the array.
 <br />
 2: Loop through the array of KVPs while adding the values sequentially until the next value added would make the running total of the summation greater than the value found in step 1. 
 <br />
