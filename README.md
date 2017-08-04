@@ -11,13 +11,13 @@ I will write each algorthim in several languages, likely: JavaScript, PHP, C, or
 <br />
 -This method can be inaccurate or irrelevant if there are too few key-value pairs, e.g. while this method is useful for something like days in a year, it would not be useful for days in a week. 
 <br />
--Data must an array of key value pairs.
+-Data must be an array of key value pairs.
 <br /><br />
 <b>Steps:</b>
 <br /><br />
-1: Find the sum of all values to be weighted by looping through the array, and divide this value in half.
+1: Find (the sum of all values / 2) to be weighted by looping through the array.
 <br />
-2: Loop through the array of KVPs, while adding the values sequentially until the next value added would make the running total of the summation greater than the value found in step 1. 
+2: Loop through the array of KVPs while adding the values sequentially until the next value added would make the running total of the summation greater than the value found in step 1. 
 <br />
 3: Return the key of the last object whose value was added to the partial sum in step 2. 
 <br /><br />
@@ -41,6 +41,6 @@ The algorithm stops at the eleventh hour, because adding the value of the 12th h
 to the partial sum would mean the partial sum would equal a number greater than 66
 </pre>
 3: 
-<pre>Return 11
+<pre>Return 1i1
 </pre>
 
